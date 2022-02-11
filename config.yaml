@@ -1,7 +1,6 @@
 baseURL: "https://phil-ranzato.netlify.app"
 languageCode: "en-us"
 title: "Phil Ranzato"
-theme: "hugo-profile"
 relativeURLs: true
 
 googleanalytics: UA-xxxxxx-x
@@ -46,10 +45,9 @@ Menus:
     #   weight: 2
     
 params:
-  version: 3
   customCSS: false
 
-  favicon: "/images/fav.png"
+  favicon: "/images/favicon.png"
   description: "Phil Ranzato portfolio website."
 
   # home
@@ -59,108 +57,66 @@ params:
   namecolor: ffc107
   profession: "Cloud Native & DevOps Engineer"
   github: "https://github.com/PhilRanzato"
-  linkedin: "https://linkedin.com"
-  # facebook: "https://facebook.com"
-
-  # Custom social links
-  customSocialLinks:
-    - imageURL: "medium.png"
-      url: "https://gohugo.com"
-    - fontAwesomeIconName: "fa fa-envelope"
-      url: "https://gmail.com"
+  linkedin: "https://linkedin.com/phil-ranzato"
+  medium: "https://medium.com/@philranzato"
 
   # About
   disable_about: false
-  descripe_l1_person: "Hi, I'm Profile, a passionate web developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-  descripe_l2_person: "This is a example template for about section. You can find my works [here](#projects)"
+  descripe_l1_person: "Hi, I'm Phil Ranzato, a DevOps Engineer. I always tend to learn new modern technologies, even outside my field."
+  descripe_l2_person: "You can find my works [here](#projects)"
   skills:
-    - name: CSS
+    - name: Kubernetes
+      percentage: 97
+    - name: Ansible
+      percentage: 95
+    - name: Terraform
       percentage: 90
-    - name: Django
-      percentage: 85
-    - name: Hugo
+    - name: AWS/GCP/Azure
       percentage: 80
-    - name: React JS
+    - name: Python
       percentage: 70
 
   # Experience
   disable_experience: false
   experience:
-    - company: "Google"
-      # id: "google-developer"   // use this, when you want to change the id(used for navigation)
-      role: "Software developer"
-      startdate: Feb 2021
+    - company: "Kiratech Swiss SA"
+      role: "Cloud Native & DevOps Engineer"
+      startdate: Oct 2019
       enddate: present
       featuredpoints:
-        - point: Lead backend developer for a product.
-        - point: Created a frontend design for a product.
-    - company: "Facebook"
-      # id: "facebook-developer" // use this, when you want to change the id(used for navigation)
-      role: "Fullstack developer"
-      startdate: Mar 2020
-      enddate: Dec 2020
-      featuredpoints:
-        - point: Lead backend developer for a product.
-        - point: Created a frontend design for a product.
-    - company: "Amazon"
-      # id: "amazon-developer" // use this, when you want to change the id(used for navigation)
-      role: "Fullstack developer"
-      startdate: Feb 2019
-      enddate: Jan 2020
-      featuredpoints:
-        - point: Lead backend developer for a product.
-        - point: Created a frontend design for a product.
+        - point: Infrastructure as Code Expert.
+        - point: Kubernetes Certified Administrator.
+        - point: Guiding companies into the Digital transformation.
 
   # Education
   disable_education: false
   education:
-    - degree: "B.tech"
-      branch: "Information Technology"
-      university: "Example university"
-      startedyear: "2013"
-      graduation: "2018"
-    - degree: "Degree"
-      branch: "Branch"
-      university: "Example university"
-      startedyear: "year"
-      graduation: "year"
-    - degree: "Degree"
-      branch: "Branch"
-      university: "Example university"
-      startedyear: "year"
-      graduation: "year"
+    - degree: "BSc"
+      branch: "Computer Science and Engineering"
+      university: "Politecnico di Milano"
+      startedyear: "2014"
+      graduation: "2017"
+    - degree: "MSc"
+      branch: "Computer Science and Machine Learning"
+      university: "Politecnico di Milano"
+      startedyear: "2017"
+      graduation: "2019"
 
   # Projects
   disable_projects: false
-  projects:
-    - name: "Example project without details"
-      img: /images/project.jpg
-      githublink: "https://github.com/"
-      featuredlink: "/"
-      description: "Description of project"
 
   # Achievements
   disable_achievements: false
   achievements:
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
-      url: https://example.com
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
-      # url: https://example.com
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
-    - title: Competition winner
-      description: We are developed a product which can help others.
-      img: /images/achiv.jpg
+    - title: CKA
+      description: I took the Certified Kubernetes Administrator certification with a score of 97/100 on August 15, 2020.
+      img: /images/achievements/cka.png
+      url: https://www.credly.com/badges/59e37847-6e12-4b2a-8347-38a13b06b5f7/public_url
 
   # Contact
   disable_contact: false
   contact_content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
-  email: "example@mail.com"
+  email: "philranzato@gmail.com"
 
   # Footer
   socialiconfooter: true
