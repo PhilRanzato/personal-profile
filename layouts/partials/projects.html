@@ -10,10 +10,10 @@
           </div>
           <div class="col-md-6 content-pro p-3 bg-light">
             <div class="content-pro-top">
-              <h2>{{ .Title }}</h2>
-              <p class="card-text pt-2">{{ .Params.description }}</p>
+              <h2 style="color: #007bff;">{{ .Title }}</h2>
+              <p class="card-text pt-2" style="color: #17a2b8;">{{ .Params.description }}</p>
             </div>
-            <span class="float-right">
+            <span class="float-right mt-3">
               {{ if .Params.featured }}
               <a href="{{ .Params.featured }}" class="px-1">
                 <i class="fas text-info fa-link"></i>
