@@ -1,4 +1,4 @@
-baseURL: "https://phil-ranzato.netlify.app"
+baseURL: "/"
 languageCode: "en-us"
 title: "Phil Ranzato"
 relativeURLs: true
