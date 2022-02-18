@@ -86,6 +86,7 @@ params:
       featuredpoints:
         - point: Infrastructure as Code Expert.
         - point: Kubernetes Certified Administrator.
+        - point: Elastic Stack Expert.
         - point: Guiding companies into the Digital transformation.
 
   # Education
