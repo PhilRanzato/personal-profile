@@ -5,5 +5,4 @@ draft: false
 img: /images/projects/aws-kinesis.png
 description: "CLI tool implemented in Golang to ensure network communications between Kubernetes pods"
 github: https://github.com/PhilRanzato/pizzeriadelcentro
-featured: https://www.pizzeriadelcentro.it
 ---

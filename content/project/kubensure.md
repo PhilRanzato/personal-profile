@@ -5,5 +5,4 @@ draft: false
 img: /images/projects/kubensure.png
 description: "CLI tool implemented in Golang to ensure network communications between Kubernetes pods"
 github: https://github.com/PhilRanzato/kubensure
-featured: https://github.com/PhilRanzato/kubensure
 ---
