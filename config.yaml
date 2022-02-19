@@ -111,7 +111,7 @@ params:
   achievements:
     - title: CKA
       description: I took the Certified Kubernetes Administrator certification with a score of 97/100 on August 15, 2020.
-      img: /images/achievements/cka.png
+      img: /images/achievements/cka.webp
       url: https://www.credly.com/badges/59e37847-6e12-4b2a-8347-38a13b06b5f7/public_url
 
   # Contact
