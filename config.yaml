@@ -47,12 +47,12 @@ Menus:
 params:
   customCSS: false
 
-  favicon: "/images/favicon.png"
+  favicon: "/images/favicon.webp"
   description: "Phil Ranzato portfolio website."
 
   # home
   disable_home: false
-  profile_image: "/images/profile.png"
+  profile_image: "/images/profile.webp"
   name: "Phil Ranzato"
   namecolor: ffc107
   profession: "Cloud Native & DevOps Engineer"
