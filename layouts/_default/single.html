@@ -67,7 +67,7 @@
     <div class="row blog-page-color">
       <div class="col-md-9 py-4 px-0">
         <div class="rounded shadow bg-light p-3 px-md-5 bg-light">
-          <h1 class="pb-2 text-center">{{ .Title }}</h1>
+          <h1 class="mb-5 text-center border-bottom">{{ .Title }}</h1>
           <article>
             {{.Content}}
           </article>
@@ -81,30 +81,20 @@
 
         <div class="bg-light shadow p-4 rounded mt-2 bg-light">
           <h4>Share article with</h4>
-          <ul>
-            <li>
-              <a target="blank" class="text-info"
-                href="https://twitter.com/share?text={{ .Title }}&url={{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
-                Twitter
-              </a>
-            </li>
-            <li>
-              <a target="blank" class="text-success"
-                href="https://api.whatsapp.com/send?text={{ .Title }}: {{ .Site.Params.hostName }}{{ .Permalink | absURL }}"
-                data-action="share/whatsapp/share">
-                Whatsapp
-              </a>
-            </li>
-            <li>
-              <a class="text-danger" target="blank"
-                href="mailto:?subject={{ .Title }}&amp;body=Check out this site {{ .Site.Params.hostName }}{{ .Permalink | absURL }}">
-                Email
-              </a>
-            </li>
-          </ul>
-
-
-
+          <div class="row justify-content-center">
+          <a target="blank" href="https://twitter.com/share?text={{ .Title }}&url={{ .Site.Params.hostName }}{{ .Permalink | absURL }}" class="social-icon">
+            <i class="fab fa-xl fa-brands fa-twitter mr-3"></i>
+            &#8203;
+          </a>
+          <a target="blank" href="https://api.whatsapp.com/send?text={{ .Title }}: {{ .Site.Params.hostName }}{{ .Permalink | absURL }}" class="social-icon">
+            <i class="fab fa-xl fa-brands fa-whatsapp mr-3" style="color: #25D366;"></i>
+            &#8203;
+          </a>
+          <a target="blank" href="mailto:?subject={{ .Title }}&amp;body=Check out this site {{ .Site.Params.hostName }}{{ .Permalink | absURL }}" class="social-icon">
+            <i class="fab fa-xl fa-solid fa-envelope" style="color: grey;"></i>
+            &#8203;
+          </a>
+        </div>
         </div>
       </div>
       {{ template "_internal/disqus.html" . }}
