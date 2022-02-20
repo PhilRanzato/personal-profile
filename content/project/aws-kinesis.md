@@ -1,6 +1,6 @@
 ---
 title: "AWS Kinesis Lambda"
-date: 2021-05-04T11:30:13+05:30
+date: 2022-02-19T07:00:13+00:00
 draft: false
 img: /images/projects/aws-kinesis.webp
 description: "CICD pipeline with Terraform and Github Actions to deliver a Lambda function on AWS"
