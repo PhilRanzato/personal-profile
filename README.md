@@ -9,8 +9,8 @@
 ![Open Pull Requests](https://img.shields.io/github/issues-pr/PhilRanzato/personal-portfolio?color=yellowgreen)
 ![Latest Release](https://img.shields.io/github/v/release/PhilRanzato/personal-portfolio?include_prereleases)
 ![GitHub Release Date](https://img.shields.io/github/release-date/PhilRanzato/personal-portfolio)
-![Hugo version](https://img.shields.io/static/v1?label=min-HUGO-version&message=0.81.0&color=f00&logo=hugo)
+![Hugo version](https://img.shields.io/static/v1?label=min-HUGO-version&message=0.129.0&color=f00&logo=hugo)
 
 My personal website powered by Hugo.
 
-Take a look at [https://philranzato.netlify.app](https://philranzato.netlify.app).
+Take a look at [philranzato.netlify.app](https://philranzato.netlify.app).
